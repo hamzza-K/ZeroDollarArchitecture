@@ -6,8 +6,8 @@ from fastapi import FastAPI, HTTPException, Query, Body
 
 app = FastAPI()
 
-API_KEY = ""
-DB_URL = ""
+API_KEY = "xau_OUAh7qE1WoNfaLYbf4QfNJIh5Y3YZFYV"
+DB_URL = "https://Makafate-Amal-s-workspace-98ldke.us-east-1.xata.sh/db/zeroDollar"
 
 xata = XataClient(api_key=API_KEY, db_url=DB_URL)
 
