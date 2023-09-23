@@ -1,12 +1,8 @@
-import configparser
 from xata.client import XataClient
 from itemadapter import ItemAdapter
 
-config = configparser.ConfigParser()
-config.read('secrets.ini')
-
-API_KEY = config["SECRETS"]["API"]
-DB_URL  = config["SECRETS"]["DB_URL"]
+API_KEY = ""
+DB_URL  = ""
 
 class ZeroPipeline:
     def __init__(self):

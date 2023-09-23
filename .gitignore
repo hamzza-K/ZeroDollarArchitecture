@@ -1,3 +1,4 @@
 /__pycache__/
 api/google-cloud-sdk/
 frontend/node_modules/
+/scraper/zero/secrets.ini
