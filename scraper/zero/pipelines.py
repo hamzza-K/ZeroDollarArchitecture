@@ -5,8 +5,8 @@ from itemadapter import ItemAdapter
 config = configparser.ConfigParser()
 config.read('secrets.ini')
 
-API_KEY = config["SECRETS"]["API"]
-DB_URL  = config["SECRETS"]["DB_URL"]
+API_KEY = "xau_2VUwPU8mGKMitsK0fhkFiMwp8dM3hTPi"
+DB_URL = "https://Makafate-Amal-s-workspace-98ldke.us-east-1.xata.sh/db/zeroDollar"
 
 class ZeroPipeline:
     def __init__(self):
